@@ -177,26 +177,7 @@ const AdminDashboard = () => {
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
-          <Card>
-            <CardHeader>
-              <CardTitle>Quick Actions</CardTitle>
-              <CardDescription>Manage the services portal</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-2">
-              <Button className="w-full" variant="outline">
-                <Building2 className="h-4 w-4 mr-2" />
-                Manage Departments
-              </Button>
-              <Button className="w-full" variant="outline">
-                <FileText className="h-4 w-4 mr-2" />
-                Manage Services
-              </Button>
-              <Button className="w-full" variant="outline">
-                <Users className="h-4 w-4 mr-2" />
-                Manage Officers
-              </Button>
-            </CardContent>
-          </Card>
+         
 
           <Card>
             <CardHeader>
